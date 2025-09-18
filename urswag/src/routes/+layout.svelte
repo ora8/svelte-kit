@@ -12,9 +12,21 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<div class="container flex flex-col min-h-screen">
 <Header title="Urs Wagner" subtitle="Software Developer" 
 	logo={logo} />
 
 {@render children?.()}
 
 <Footer/>
+
+</div>
+
+<style>
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container takes at least the full height of the viewport */
+  }
+</style>

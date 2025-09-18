@@ -1,16 +1,22 @@
 <script>
-	import Canvas from "$components/Canvas.svelte";
-	import Clock from "$components/Clock.svelte";
 	import MainSection from "$components/sections/MainSection.svelte";
 
 </script>
 
+<div class="nav-container">
 <nav>
     <a href="/">Home</a>
     <a href="/arduino">Arduino</a>
     <a href="/about">About</a>
 </nav>
+</div>
 
 <MainSection/>
 
-<Clock width={500} height={400} background="#f0f0f0" />
+<style>
+ .nav-container {
+    display: flex; /* Enable flexbox */
+    justify-content: flex-end; /* Align children to the right */
+    padding: 1rem; /* Optional: Add some padding */
+  }
+</style>
