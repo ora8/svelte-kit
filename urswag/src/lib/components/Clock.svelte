@@ -137,7 +137,7 @@
         // Update angles
         secondandAngle += (Math.PI / 30) * (interval / 1000); // every 50ms
         minuteAngle += (Math.PI / 1800) *  (interval / 1000); // every 50ms
-        hourAngle += (Math.PI / 21600) * s (interval / 1000); // every 50ms
+        hourAngle += (Math.PI / 21600) * (interval / 1000); // every 50ms
     }
 
     function drawSwissFlag(context: CanvasRenderingContext2D) {
