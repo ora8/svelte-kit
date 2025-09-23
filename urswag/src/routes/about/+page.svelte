@@ -4,6 +4,7 @@
  
 </script>
 
+<main>
 <div class="nav-container">
 <nav>
     <a href="/">Home</a>
@@ -15,3 +16,4 @@
 
 <AboutSection/>
 
+</main>

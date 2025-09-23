@@ -16,15 +16,42 @@ a:hover {
     /* Optional: add underline on hover */
 }
 
+main {
+    flex: 1;
+    /* Allows the main content to take available space */
+    background-color: #f9f9f9;
+    /* Light background for main content */
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure body takes full height */
+    min-width: 100vw;
+    /* Ensure body takes full width */
+}
+
+h1 {
+    margin: 0;
+}
+
 p {
     text-align: justify;
+}
+
+.page-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .nav-container {
     display: flex;
     /* Enable flexbox */
     justify-content: flex-end;
-    /* Align children to the right */
-    padding: 1rem;
-    /* Optional: Add some padding */
 }

@@ -3,6 +3,7 @@
 
 </script>
 
+<main>
 <div class="nav-container">
 <nav>
     <span>Home</span>
@@ -13,3 +14,5 @@
 </div>
 
 <HomeSection/>
+
+</main>

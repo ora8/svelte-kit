@@ -1,8 +1,9 @@
 <script>
-	import ContactForm from "$components/forms/ContactForm.svelte";
+	import ContactSection from "$components/sections/ContactSection.svelte";
 
 </script>
 
+<main>
 <div class="nav-container">
 <nav>
     <a href="/">Home</a>
@@ -12,4 +13,6 @@
 </nav>
 </div>
 
-<ContactForm/>
+<ContactSection/>
+
+</main>

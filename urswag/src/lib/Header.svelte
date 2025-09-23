@@ -5,7 +5,7 @@
 	export let logoAlt: string = 'Logo';
 </script>
 
-<header style="padding: 1rem; background-color: #34ab62; color: white;">
+<header>
 	<div>
 		<h1>{title}</h1>
 		{#if subtitle}
@@ -16,19 +16,15 @@
 </header>
 
 <style>
-	header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 1rem;
-		background-color: #34ab62;
-		color: white;
-	}
-	h1 {
-		margin: 0;
-	}
-	p {
+ header {
+    background-color: #34ab62; /* Header color */
+    color: white; /* Header text color */
+	margin: 0rem 10rem;
+	padding: 0.5rem 1rem;
+  }
+  	p {
 		margin: 0.25rem 0 0 0;
 		font-weight: 300;
 	}
+
 </style>
