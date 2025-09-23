@@ -168,5 +168,5 @@
 	bind:this={canvas}
 	width={size}
 	height={size}
-	style="border: 1px solid #ccc; background: {background}; touch-action: none;"
-/>
+	style="border: 1px solid #ccc; background: {background}; touch-action: none;">
+</canvas>

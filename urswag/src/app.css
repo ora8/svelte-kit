@@ -1,3 +1,30 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+a {
+    color: #34ab62;
+    /* Default link color */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Optional: add underline on hover */
+}
+
+p {
+    text-align: justify;
+}
+
+.nav-container {
+    display: flex;
+    /* Enable flexbox */
+    justify-content: flex-end;
+    /* Align children to the right */
+    padding: 1rem;
+    /* Optional: Add some padding */
+}

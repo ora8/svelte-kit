@@ -4,13 +4,13 @@
     interface ButtonProps {
         children: Snippet;
         className?: string;
-        onClick: () => void;
+        onClick?: () => void;
     }
 
     let { children, className, onClick, ...props }: ButtonProps = $props()   ;
 </script>
 
-<button class="btn {className}" on:click={onClick} {...props}>
+<button class="btn {className}" onclick={onClick} {...props}>
     {@render children()}
 </button>
 
